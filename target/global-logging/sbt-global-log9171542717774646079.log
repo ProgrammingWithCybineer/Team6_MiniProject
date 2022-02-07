@@ -1,0 +1,24 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(857ab1c4-f037-4ec9-988f-11c46fe9f580), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to C:\LocalGit\Team6_MiniProject\Team6_MiniProject\target\scala-2.11\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\LocalGit\Team6_MiniProject\Team6_MiniProject\src\main\scala\animalProject.scala:8:27: not found: type any[0m
+[0m[[0m[31merror[0m] [0m[0m    var arr = ArrayBuffer[any]()[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\LocalGit\Team6_MiniProject\Team6_MiniProject\src\main\scala\animalProject.scala:17:46: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : String[0m
+[0m[[0m[31merror[0m] [0m[0m required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m    var animal1 = new AnimalType(animalType, name, age)[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\LocalGit\Team6_MiniProject\Team6_MiniProject\src\main\scala\animalProject.scala:17:52: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m    var animal1 = new AnimalType(animalType, name, age)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\LocalGit\Team6_MiniProject\Team6_MiniProject\src\main\scala\animalProject.scala:18:13: not found: value AnimalType[0m
+[0m[[0m[31merror[0m] [0m[0m    println(AnimalType.toString)[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 10 s, completed Feb 7, 2022 12:08:52 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

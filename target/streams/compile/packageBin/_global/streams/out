@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\LocalGit\Team6_MiniProject\Team6_MiniProject\target\scala-2.11\animalproject_2.11-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	animalProject$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\LocalGit\Team6_MiniProject\Team6_MiniProject\target\scala-2.11\classes\animalProject$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	animalProject.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\LocalGit\Team6_MiniProject\Team6_MiniProject\target\scala-2.11\classes\animalProject.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AnimalType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\LocalGit\Team6_MiniProject\Team6_MiniProject\target\scala-2.11\classes\AnimalType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BadUserInputException$$anonfun$$lessinit$greater$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\LocalGit\Team6_MiniProject\Team6_MiniProject\target\scala-2.11\classes\BadUserInputException$$anonfun$$lessinit$greater$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BadUserInputException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\LocalGit\Team6_MiniProject\Team6_MiniProject\target\scala-2.11\classes\BadUserInputException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
