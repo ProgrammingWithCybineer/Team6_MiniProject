@@ -7,8 +7,11 @@ class AnimalType{
      this()
      this.name=name
      this.age=age
-     this.department=department
+     this.type=type
  }
  
+  override def toString():String={
+     return this.name+": " + this.age+": " +this.type
+ }
 
 }
