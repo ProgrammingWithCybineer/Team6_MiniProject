@@ -2153,3 +2153,139 @@ Caused by: java.lang.IllegalArgumentException: 22 is not a valid line number, al
 2022.02.07 12:57:07 INFO  no build target found for C:\Users\Cybineer\Desktop\Team6_MiniProject\src\main\scala\BadUserInputException.scala. Using presentation compiler with project's scala-library version: 3.1.0
 2022.02.07 12:57:08 INFO  time: code lens generation in 2.81s
 2022.02.07 12:57:08 INFO  time: code lens generation in 2.81s
+2022.02.07 11:38:20 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\LocalGit\Team6_MiniProject\Team6_MiniProject\.metals\lsp.trace.json or C:\Users\king\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.02.07 11:38:22 INFO  logging to file C:\LocalGit\Team6_MiniProject\Team6_MiniProject\.metals\metals.log
+2022.02.07 11:38:22 INFO  Started: Metals version 0.11.1 in workspace 'C:\LocalGit\Team6_MiniProject\Team6_MiniProject' for client Visual Studio Code 1.64.0.
+2022.02.07 11:38:22 INFO  Parse release: 17.0.1
+2022.02.07 11:38:27 INFO  time: initialize in 5.73s
+2022.02.07 11:38:32 WARN  Build server is not auto-connectable.
+2022.02.07 11:38:32 WARN  no build tool detected in workspace 'C:\LocalGit\Team6_MiniProject\Team6_MiniProject'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.02.07 11:38:32 WARN  no build target for: C:\LocalGit\Team6_MiniProject\Team6_MiniProject\src\main\scala\AnimalType.scala
+Feb 07, 2022 11:38:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2022.02.07 11:38:41 INFO  no build target found for C:\LocalGit\Team6_MiniProject\Team6_MiniProject\src\main\scala\AnimalType.scala. Using presentation compiler with project's scala-library version: 3.1.0
+2022.02.07 11:38:46 INFO  time: code lens generation in 12s
+2022.02.07 11:38:46 INFO  time: code lens generation in 4.3s
+2022.02.07 11:38:46 INFO  time: code lens generation in 12s
+2022.02.07 11:38:46 INFO  time: code lens generation in 12s
+2022.02.07 11:38:46 INFO  time: code lens generation in 4.38s
+2022.02.07 11:39:04 WARN  no build target for: C:\LocalGit\Team6_MiniProject\Team6_MiniProject\src\main\scala\AnimalType.scala
+2022.02.07 11:39:05 WARN  no build target for: C:\LocalGit\Team6_MiniProject\Team6_MiniProject\src\main\scala\BadUserInputException.scala
+2022.02.07 11:39:08 WARN  no build target for: C:\LocalGit\Team6_MiniProject\Team6_MiniProject\src\main\scala\animalProject.scala
+2022.02.07 11:39:18 WARN  no build target for: C:\LocalGit\Team6_MiniProject\Team6_MiniProject\src\main\scala\animalProject.scala
+2022.02.07 11:39:40 WARN  no build target for: C:\LocalGit\Team6_MiniProject\Team6_MiniProject\src\main\scala\animalProject.scala
+Feb 07, 2022 11:40:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: C:\LocalGit\Team6_MiniProject\Team6_MiniProject\src\main\scala\animalProject.scala:23: error: C:\LocalGit\Team6_MiniProject\Team6_MiniProject\src\main\scala\animalProject.scala:23: error: expected identifier; obtained eof
+*/
+  ^
+*/
+  ^
+java.util.concurrent.CompletionException: C:\LocalGit\Team6_MiniProject\Team6_MiniProject\src\main\scala\animalProject.scala:23: error: C:\LocalGit\Team6_MiniProject\Team6_MiniProject\src\main\scala\animalProject.scala:23: error: expected identifier; obtained eof
+*/
+  ^
+*/
+  ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: C:\LocalGit\Team6_MiniProject\Team6_MiniProject\src\main\scala\animalProject.scala:23: error: C:\LocalGit\Team6_MiniProject\Team6_MiniProject\src\main\scala\animalProject.scala:23: error: expected identifier; obtained eof
+*/
+  ^
+*/
+  ^
+	at scala.meta.internal.mtags.ScalaToplevelMtags.fail(ScalaToplevelMtags.scala:358)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.newIdentifier(ScalaToplevelMtags.scala:343)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitMember(ScalaToplevelMtags.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:118)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:230)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:191)
+	at scala.Option.orElse(Option.scala:447)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:191)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:186)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:293)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1428)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Feb 07, 2022 11:40:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: C:\LocalGit\Team6_MiniProject\Team6_MiniProject\src\main\scala\animalProject.scala:23: error: C:\LocalGit\Team6_MiniProject\Team6_MiniProject\src\main\scala\animalProject.scala:23: error: expected identifier; obtained eof
+*/
+  ^
+*/
+  ^
+java.util.concurrent.CompletionException: C:\LocalGit\Team6_MiniProject\Team6_MiniProject\src\main\scala\animalProject.scala:23: error: C:\LocalGit\Team6_MiniProject\Team6_MiniProject\src\main\scala\animalProject.scala:23: error: expected identifier; obtained eof
+*/
+  ^
+*/
+  ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: C:\LocalGit\Team6_MiniProject\Team6_MiniProject\src\main\scala\animalProject.scala:23: error: C:\LocalGit\Team6_MiniProject\Team6_MiniProject\src\main\scala\animalProject.scala:23: error: expected identifier; obtained eof
+*/
+  ^
+*/
+  ^
+	at scala.meta.internal.mtags.ScalaToplevelMtags.fail(ScalaToplevelMtags.scala:358)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.newIdentifier(ScalaToplevelMtags.scala:343)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitMember(ScalaToplevelMtags.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:118)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:230)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:191)
+	at scala.Option.orElse(Option.scala:447)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:191)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:186)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:293)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1428)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+2022.02.07 11:40:27 WARN  no build target for: C:\LocalGit\Team6_MiniProject\Team6_MiniProject\src\main\scala\animalProject.scala
+2022.02.07 11:43:48 INFO  shutting down Metals
+2022.02.07 11:45:25 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\LocalGit\Team6_MiniProject\Team6_MiniProject\.metals\lsp.trace.json or C:\Users\king\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.02.07 11:45:27 INFO  logging to file C:\LocalGit\Team6_MiniProject\Team6_MiniProject\.metals\metals.log
+2022.02.07 11:45:27 INFO  Started: Metals version 0.11.1 in workspace 'C:\LocalGit\Team6_MiniProject\Team6_MiniProject' for client Visual Studio Code 1.64.0.

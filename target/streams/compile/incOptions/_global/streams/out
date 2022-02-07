@@ -1,0 +1,10 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\LocalGit\Team6_MiniProject\Team6_MiniProject\target\scala-2.11\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BadUserInputException$$anonfun$$lessinit$greater$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BadUserInputException.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	animalProject.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	animalProject$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AnimalType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\LocalGit\Team6_MiniProject\Team6_MiniProject\target\scala-2.11\classes.bak[0m

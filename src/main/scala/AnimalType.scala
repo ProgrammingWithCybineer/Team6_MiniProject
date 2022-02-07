@@ -1,9 +1,9 @@
 class AnimalType{
  var name= ""
  var age=0
- var type=""
+ var animalType=""
 
- def this(name:String, age: Int, type:String){
+ def this(name:String, age: Int, animalType:String){
      this()
      this.name=name
      this.age=age
