@@ -1,17 +1,2 @@
-[0m[[0m[31merror[0m] [0m[0mC:\LocalGit\Team6_MiniProject\Team6_MiniProject\src\main\scala\animalProject.scala:8:27: not found: type any[0m
-[0m[[0m[31merror[0m] [0m[0m    var arr = ArrayBuffer[any]()[0m
-[0m[[0m[31merror[0m] [0m[0m                          ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\LocalGit\Team6_MiniProject\Team6_MiniProject\src\main\scala\animalProject.scala:17:46: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : String[0m
-[0m[[0m[31merror[0m] [0m[0m required: Int[0m
-[0m[[0m[31merror[0m] [0m[0m    var animal1 = new AnimalType(animalType, name, age)[0m
-[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\LocalGit\Team6_MiniProject\Team6_MiniProject\src\main\scala\animalProject.scala:17:52: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
-[0m[[0m[31merror[0m] [0m[0m required: String[0m
-[0m[[0m[31merror[0m] [0m[0m    var animal1 = new AnimalType(animalType, name, age)[0m
-[0m[[0m[31merror[0m] [0m[0m                                                   ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\LocalGit\Team6_MiniProject\Team6_MiniProject\src\main\scala\animalProject.scala:18:13: not found: value AnimalType[0m
-[0m[[0m[31merror[0m] [0m[0m    println(AnimalType.toString)[0m
-[0m[[0m[31merror[0m] [0m[0m            ^[0m
-[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were three deprecation warnings; re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

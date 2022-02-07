@@ -3,19 +3,25 @@ import scala.collection.mutable.ArrayBuffer
 
 object animalProject {
    def main(args: Array[String]): Unit = {
-   
-    var sc = new Scanner(System.in)
-    var arr = ArrayBuffer()
+    var num = 3
+    //var sc = new Scanner(System.in)
+    var arr = ArrayBuffer[String]()
+    while(num != 0) {
+        println("Enter animal's type: ")
+        var animalType = readLine()
+        println("Enter animal's name: ")
+        var name = readLine()
+        println("Enter animal's age: ")
+        var age = readInt()
+        
+        var animal1 = new AnimalType(name, age, animalType)
+        //println(animal1.toString)
+        arr +=animal1.toString()
+        num -= 1
+    }
 
-    println("Enter animal's type: ")
-    var animalType = sc.nextLine()
-    println("Enter animal's name: ")
-    var name = sc.nextLine()
-    println("Enter animal's age: ")
-    var age = sc.nextInt()
-    
-    var animal1 = new AnimalType(name, age, animalType)
-    println(animal1.toString)
+    println("\nAll animals:")
+    arr.foreach {println}
 
 
 
